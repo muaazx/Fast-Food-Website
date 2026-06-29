@@ -1,0 +1,6 @@
+{
+  "name": "FireBite Restaurant",
+  "description": "A modern and complete fast food restaurant website for FireBite with an interactive menu, special offers countdown, reviews, and a smooth user experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
