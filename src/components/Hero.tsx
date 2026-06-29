@@ -84,7 +84,11 @@ export default function Hero({ onNavigate }: HeroProps) {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="font-inter text-[#F5F5F5]/70 max-w-xl mx-auto lg:mx-0 mb-10 text-base leading-relaxed"
           >
+<<<<<<< HEAD
             Experience the ultimate flavor bomb with our signature Pakistani wood-fired gourmet pizzas and burgers. Fresh ingredients, hand-pressed cheddar, and custom-sauced crusts baked daily.
+=======
+            Experience the ultimate flavor bomb with our signature Pakistani smoke-infused gourmet patties. Fresh ingredients, hand-pressed cheddar, and fire-branded brioche buns baked daily.
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </motion.p>
 
           {/* Action Buttons */}
@@ -149,7 +153,11 @@ export default function Hero({ onNavigate }: HeroProps) {
             
             <img
               src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80"
+<<<<<<< HEAD
               alt="Pizza Saucy Gourmet Pizza & Burger"
+=======
+              alt="FireBite Gourmet Smash Burger"
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
               referrerPolicy="no-referrer"
               className="w-full h-auto object-contain drop-shadow-[0_15px_50px_rgba(255,45,32,0.5)] hover:rotate-3 hover:scale-105 transition-all duration-500 cursor-grab active:cursor-grabbing"
             />

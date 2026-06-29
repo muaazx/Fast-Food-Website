@@ -56,7 +56,11 @@ export default function Menu({ onAddToCart }: MenuProps) {
             transition={{ delay: 0.1 }}
             className="font-bebas text-5xl sm:text-6xl tracking-wide text-white mb-4"
           >
+<<<<<<< HEAD
             DISCOVER THE <span className="text-[#FFB800]">SAUCY MENU</span>
+=======
+            DISCOVER THE <span className="text-[#FFB800]">FIRE MENU</span>
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -65,7 +69,11 @@ export default function Menu({ onAddToCart }: MenuProps) {
             transition={{ delay: 0.2 }}
             className="font-inter text-[#F5F5F5]/60 text-base"
           >
+<<<<<<< HEAD
             Choose from our premium wood-smoked beef burgers, crispy double-fried chicken zingers, golden sides, and ice-cold margaritas. Crafted fresh, customized with our signature sauces.
+=======
+            Choose from our premium wood-smoked beef burgers, crispy double-fried chicken zingers, golden sides, and ice-cold margaritas. Crafted fresh, customized for your fire rating.
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </motion.p>
         </div>
 
@@ -224,7 +232,11 @@ export default function Menu({ onAddToCart }: MenuProps) {
             <Flame className="w-12 h-12 text-[#FF2D20]/40 mx-auto mb-4" />
             <h3 className="font-bebas text-2xl text-white tracking-wider mb-2">NO DISHES MATCH YOUR CRITERIA</h3>
             <p className="font-inter text-sm text-[#F5F5F5]/60 px-6">
+<<<<<<< HEAD
               Our ovens are hot but we couldn't find matches for "{searchQuery}". Try exploring other categories or clearing your active filters.
+=======
+              Our fires are hot but we couldn't find matches for "{searchQuery}". Try exploring other categories or clearing your active filters.
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
             </p>
           </motion.div>
         )}

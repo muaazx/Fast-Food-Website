@@ -20,7 +20,11 @@ export default function App() {
   // Load cart from localStorage on component mount
   useEffect(() => {
     try {
+<<<<<<< HEAD
       const savedCart = localStorage.getItem('pizzasaucy_cart');
+=======
+      const savedCart = localStorage.getItem('firebite_cart');
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
       if (savedCart) {
         setCart(JSON.parse(savedCart));
       }
@@ -33,7 +37,11 @@ export default function App() {
   const saveCart = (newCart: CartItem[]) => {
     setCart(newCart);
     try {
+<<<<<<< HEAD
       localStorage.setItem('pizzasaucy_cart', JSON.stringify(newCart));
+=======
+      localStorage.setItem('firebite_cart', JSON.stringify(newCart));
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
     } catch (e) {
       console.error('Failed to save cart to localStorage', e);
     }

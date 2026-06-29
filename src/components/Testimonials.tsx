@@ -64,7 +64,11 @@ export default function Testimonials() {
             Real Reviews
           </p>
           <h2 className="font-bebas text-5xl sm:text-6xl tracking-wide text-white">
+<<<<<<< HEAD
             WORDS FROM OUR <span className="text-[#FFB800]">SAUCY SQUAD</span>
+=======
+            WORDS FROM OUR <span className="text-[#FFB800]">FIRE SQUAD</span>
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </h2>
         </div>
 

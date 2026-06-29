@@ -101,7 +101,11 @@ export default function CartDrawer({
                 <div className="p-6 border-b border-white/5 flex items-center justify-between">
                   <div className="flex items-center space-x-2.5">
                     <ShoppingBag className="w-5 h-5 text-[#FF2D20]" />
+<<<<<<< HEAD
                     <h3 className="font-bebas text-2xl text-white tracking-wider">Your Saucy Box</h3>
+=======
+                    <h3 className="font-bebas text-2xl text-white tracking-wider">Your Fire Box</h3>
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
                   </div>
                   <button
                     onClick={onClose}
@@ -422,7 +426,11 @@ export default function CartDrawer({
                         <h5 className={`font-montserrat font-extrabold text-xs uppercase tracking-wider ${trackingStep >= 3 ? 'text-[#25D366]' : 'text-white/30'}`}>
                           Delivered & Satisfied
                         </h5>
+<<<<<<< HEAD
                         <p className="font-inter text-[11px] text-white/40">Enjoy your dangerously delicious meal!</p>
+=======
+                        <p className="font-inter text-[11px] text-white/40">Enjoy your dangerously delicious bite!</p>
+>>>>>>> 24093c234b0ead23639500865402ebf93071166d
                       </div>
                     </div>
 
