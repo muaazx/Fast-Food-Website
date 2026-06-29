@@ -101,11 +101,7 @@ export default function CartDrawer({
                 <div className="p-6 border-b border-white/5 flex items-center justify-between">
                   <div className="flex items-center space-x-2.5">
                     <ShoppingBag className="w-5 h-5 text-[#FF2D20]" />
-<<<<<<< HEAD
                     <h3 className="font-bebas text-2xl text-white tracking-wider">Your Saucy Box</h3>
-=======
-                    <h3 className="font-bebas text-2xl text-white tracking-wider">Your Fire Box</h3>
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
                   </div>
                   <button
                     onClick={onClose}
@@ -266,7 +262,7 @@ export default function CartDrawer({
                       type="tel"
                       required
                       pattern="^(\+92|0|92)[0-9]{10}$"
-                      placeholder="e.g. 03001234567"
+                      placeholder="e.g. 03060132222"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       className="w-full bg-[#1A1A1A] border border-white/10 focus:border-[#FF2D20] rounded-xl px-4 py-3 text-sm text-white outline-none font-inter transition-colors"
@@ -409,7 +405,7 @@ export default function CartDrawer({
                         <h5 className={`font-montserrat font-extrabold text-xs uppercase tracking-wider ${trackingStep >= 2 ? 'text-white' : 'text-white/30'}`}>
                           Out for Fast Delivery
                         </h5>
-                        <p className="font-inter text-[11px] text-white/40">Our rider is racing to DHA/Gulberg at warp speed.</p>
+                        <p className="font-inter text-[11px] text-white/40">Our rider is racing to DHA/Askari at warp speed.</p>
                       </div>
                     </div>
 
@@ -426,11 +422,7 @@ export default function CartDrawer({
                         <h5 className={`font-montserrat font-extrabold text-xs uppercase tracking-wider ${trackingStep >= 3 ? 'text-[#25D366]' : 'text-white/30'}`}>
                           Delivered & Satisfied
                         </h5>
-<<<<<<< HEAD
                         <p className="font-inter text-[11px] text-white/40">Enjoy your dangerously delicious meal!</p>
-=======
-                        <p className="font-inter text-[11px] text-white/40">Enjoy your dangerously delicious bite!</p>
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
                       </div>
                     </div>
 
@@ -440,7 +432,7 @@ export default function CartDrawer({
                 {/* Back home action button */}
                 <div className="p-6 bg-[#161616] border-t border-white/5 text-center space-y-4">
                   <p className="font-inter text-xs text-white/60">
-                    Need support? WhatsApp us at <span className="text-[#25D366] font-semibold">+92 300 1234567</span> with ID <span className="font-mono text-white">{orderId}</span>.
+                    Need support? WhatsApp us at <span className="text-[#25D366] font-semibold">0306 0132222</span> with ID <span className="font-mono text-white">{orderId}</span>.
                   </p>
                   <button
                     onClick={handleResetCheckout}

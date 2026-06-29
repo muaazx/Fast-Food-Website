@@ -6,11 +6,7 @@ export default function HowItWorks() {
     {
       step: '01',
       title: 'Pick Your Meal',
-<<<<<<< HEAD
       description: 'Explore our sauce-infused menu of gourmet artisanal pizzas, smash burgers, wraps, and loaded platters.',
-=======
-      description: 'Explore our smoke-infused menu of gourmet smash burgers, wraps, sides, and loaded platters.',
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
       icon: ChefHat,
       color: '#FF2D20',
       shadow: 'rgba(255, 45, 32, 0.25)'
@@ -57,11 +53,7 @@ export default function HowItWorks() {
             transition={{ delay: 0.1 }}
             className="font-bebas text-5xl sm:text-6xl tracking-wide text-white"
           >
-<<<<<<< HEAD
             HOW WE GET THE <span className="text-[#FFB800]">SAUCE TO YOU</span>
-=======
-            HOW WE GET THE <span className="text-[#FFB800]">FIRE TO YOU</span>
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </motion.h2>
         </div>
 

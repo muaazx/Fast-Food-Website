@@ -63,11 +63,7 @@ export default function Navbar({ cart, onOpenCart, onNavigate, activeSection }: 
               <div className="absolute top-0 left-0 w-full h-full bg-[#FFB800]/30 blur-md rounded-full -z-10 group-hover:bg-[#FF2D20]/40 transition-all duration-300"></div>
             </div>
             <span className="font-bebas text-3xl tracking-wide text-white group-hover:text-[#FFB800] transition-colors duration-300">
-<<<<<<< HEAD
               PIZZA<span className="text-[#FF2D20]">SAUCY</span>
-=======
-              FIRE<span className="text-[#FF2D20]">BITE</span>
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
             </span>
           </button>
 

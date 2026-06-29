@@ -166,11 +166,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: 'Tech Engineer, Lahore',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80',
     stars: 5,
-<<<<<<< HEAD
     quote: 'Pizza Saucy\'s service is exceptional. Their app makes ordering so seamless, and the food arrives steaming hot in premium, eco-friendly dynamic cardboard packages. The Flame Duo combo is hands-down the best value for money!'
-=======
-    quote: 'FireBites service is exceptional. Their app makes ordering so seamless, and the food arrives steaming hot in premium, eco-friendly dynamic cardboard packages. The Flame Duo combo is hands-down the best value for money!'
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
   }
 ];
 

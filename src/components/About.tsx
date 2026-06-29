@@ -178,11 +178,7 @@ export default function About() {
             viewport={{ once: true, margin: '-100px' }}
             className="text-[#FF2D20] font-montserrat text-sm font-extrabold tracking-widest uppercase mb-3 text-center lg:text-left"
           >
-<<<<<<< HEAD
             The Pizza Saucy Story
-=======
-            The FireBite Story
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </motion.p>
           
           <motion.h2
@@ -203,7 +199,6 @@ export default function About() {
             className="font-inter text-[#F5F5F5]/80 space-y-6 text-base leading-relaxed"
           >
             <p>
-<<<<<<< HEAD
               Pizza Saucy started back in 2015 as a tiny food truck in Lahore with one simple goal: to break the monotony of boring fast food. We wanted to offer real, premium, stone-baked pizzas and smash-grilled burgers infused with authentic local spices and our signature zesty sauces.
             </p>
             <p>
@@ -211,15 +206,6 @@ export default function About() {
             </p>
             <p className="font-semibold text-white">
               We do not cut corners. We build flavor. That’s why we signature-brand every single box with the Pizza Saucy emblem before it leaves our kitchen.
-=======
-              FireBite started back in 2015 as a tiny food truck in Lahore with one simple goal: to break the monotony of bland, frozen fast food patties. We wanted to offer real, premium, smash-grilled burgers infused with authentic local spices and smoke.
-            </p>
-            <p>
-              Every single patty we serve is made from 100% premium local beef and poultry, never frozen, and ground fresh every single morning. We seal our juices by double-smashing them over searing open fire coals, achieving those gorgeous crispy, lacey edges that lock in the flavor.
-            </p>
-            <p className="font-semibold text-white">
-              We do not cut corners. We build flavor. That’s why we signature-brand every single toasted brioche bun with the FireBite emblem before it leaves our kitchen.
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
             </p>
           </motion.div>
 

@@ -60,19 +60,11 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => onNavigate('hero')}>
             <Flame className="w-8 h-8 text-[#FF2D20] fill-[#FF2D20]" />
             <span className="font-bebas text-3xl tracking-wide text-white">
-<<<<<<< HEAD
               PIZZA<span className="text-[#FF2D20]">SAUCY</span>
             </span>
           </div>
           <p className="font-inter text-xs text-[#F5F5F5]/50 leading-relaxed max-w-sm">
             Experience the ultimate stone-baked pizza sensation. Since 2015, Pizza Saucy has been baking artisanal crusts and crafting rich signature sauces for Pakistan's boldest food lovers.
-=======
-              FIRE<span className="text-[#FF2D20]">BITE</span>
-            </span>
-          </div>
-          <p className="font-inter text-xs text-[#F5F5F5]/50 leading-relaxed max-w-sm">
-            Experience the ultimate charcoal grill sensation. Since 2015, FireBite has been double-smashing premium local beef and frying golden zingers for Pakistan's boldest food lovers.
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </p>
 
           {/* Minimalist newsletter */}
@@ -125,7 +117,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <h4 className="font-montserrat font-black text-white text-xs uppercase tracking-widest mb-6 border-b border-white/5 pb-2">Active Outlets</h4>
           <ul className="space-y-3 font-inter text-xs text-[#F5F5F5]/60">
             <li>
-              <span className="text-[#FF2D20] font-bold">Lahore:</span> M.M. Alam Road, Gulberg III
+              <span className="text-[#FF2D20] font-bold">Lahore:</span> Main Boulevard, Lidher (near Askari-XI)
             </li>
             <li>
               <span className="text-[#FF2D20] font-bold">Lahore:</span> Phase 5 Commercial, DHA
@@ -163,11 +155,7 @@ export default function Footer({ onNavigate }: FooterProps) {
       {/* Bottom bar */}
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-[#F5F5F5]/40 font-inter">
         <p>
-<<<<<<< HEAD
           Powered by <span className="text-white font-semibold">Pizza Saucy Restaurant Group</span> © 2026. All rights reserved.
-=======
-          Powered by <span className="text-white font-semibold">FireBite Restaurant Group</span> © 2026. All rights reserved.
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
         </p>
         <p className="mt-2 sm:mt-0">
           Crafted with charcoal smoke & extreme heat.

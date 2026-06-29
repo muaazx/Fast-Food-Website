@@ -25,17 +25,10 @@ export default function Gallery() {
             Kitchen Aesthetics
           </p>
           <h2 className="font-bebas text-5xl sm:text-6xl tracking-wide text-white mb-4">
-<<<<<<< HEAD
             VISUALS FROM THE <span className="text-[#FF2D20]">SAUCY OVEN</span>
           </h2>
           <p className="font-inter text-[#F5F5F5]/60 text-base">
             Take a look inside our kitchens. Pure passion, fresh local ingredients, artisanal craftsmanship, and hygienic preparation.
-=======
-            VISUALS FROM THE <span className="text-[#FF2D20]">SMOKE HOUSE</span>
-          </h2>
-          <p className="font-inter text-[#F5F5F5]/60 text-base">
-            Take a look inside our kitchens. Pure fire, fresh local ingredients, artisanal craftsmanship, and hygienic preparation.
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
           </p>
         </div>
 

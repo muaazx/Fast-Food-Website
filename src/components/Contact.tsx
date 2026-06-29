@@ -3,15 +3,9 @@ import { MapPin, Phone, MessageCircle, Clock, Instagram, Facebook, Globe } from 
 
 export default function Contact() {
   const socialLinks = [
-<<<<<<< HEAD
     { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/pizzasaucy' },
     { name: 'Facebook', icon: Facebook, url: 'https://facebook.com/pizzasaucy' },
     { name: 'TikTok', icon: Globe, url: 'https://tiktok.com/@pizzasaucy' }
-=======
-    { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/firebite' },
-    { name: 'Facebook', icon: Facebook, url: 'https://facebook.com/firebite' },
-    { name: 'TikTok', icon: Globe, url: 'https://tiktok.com/@firebite' }
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
   ];
 
   return (
@@ -49,7 +43,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-montserrat font-extrabold text-white text-sm uppercase tracking-wider mb-1">Our Location</h4>
                   <p className="font-inter text-sm text-[#F5F5F5]/70 leading-relaxed">
-                    Plot 12-B, M.M. Alam Road, Gulberg III, Lahore, Pakistan
+                    Main Boulevard, near Askari-XI, Lidher, Lahore, 54850, Pakistan
                   </p>
                 </div>
               </div>
@@ -62,14 +56,10 @@ export default function Contact() {
                 <div>
                   <h4 className="font-montserrat font-extrabold text-white text-sm uppercase tracking-wider mb-1">Call Delivery</h4>
                   <p className="font-inter text-sm text-[#F5F5F5]/70 leading-relaxed">
-<<<<<<< HEAD
-                    +92 (42) 111-347-324 (111-PIZZA-SAUCY)
-=======
-                    +92 (42) 111-347-324 (111-FIRE-BITE)
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
+                    0306-0132222
                   </p>
                   <p className="font-inter text-xs text-[#F5F5F5]/40 mt-0.5">
-                    Toll-free delivery from MM Alam, DHA, and Johar Town.
+                    Direct delivery hotline for Askari-XI, Lidher, DHA, and surrounding areas.
                   </p>
                 </div>
               </div>
@@ -94,11 +84,7 @@ export default function Contact() {
             {/* WhatsApp Integration button */}
             <div className="pt-6 border-t border-white/5 space-y-4">
               <a
-<<<<<<< HEAD
-                href="https://wa.me/923001234567?text=Hey%20Pizza%20Saucy!%20I%20want%20to%20order%20some%20delicious%20pizzas%20and%20burgers!"
-=======
-                href="https://wa.me/923001234567?text=Hey%20FireBite!%20I%20want%20to%20order%20some%20smash%20burgers!"
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
+                href="https://wa.me/923060132222?text=Hey%20Pizza%20Saucy!%20I%20want%20to%20order%20some%20delicious%20pizzas%20and%20burgers!"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-4 bg-[#25D366] hover:bg-[#20BA5A] text-white font-montserrat font-extrabold tracking-widest uppercase rounded-full shadow-[0_4px_15px_rgba(37,211,102,0.35)] hover:shadow-[0_4px_25px_rgba(37,211,102,0.55)] hover:scale-102 transition-all duration-300 flex items-center justify-center space-x-2.5 cursor-pointer"
@@ -132,12 +118,8 @@ export default function Contact() {
           {/* Right Column: Google Maps Iframe styled to match the dark theme */}
           <div className="lg:col-span-7 h-full min-h-[400px] overflow-hidden rounded-3xl border border-white/5 shadow-2xl relative bg-[#111111]">
             <iframe
-<<<<<<< HEAD
               title="Pizza Saucy Google Maps Location"
-=======
-              title="FireBite Google Maps Location"
->>>>>>> 24093c234b0ead23639500865402ebf93071166d
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5583689408665!2d74.34812327685603!3d31.508825174219468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919045bdf4968eb%3A0xe5a36bc64917f8a!2sM.M.%20Alam%20Rd%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.3123921937977!2d74.436258!3d31.4605917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391909001c13f6ef%3A0x428cb26507bc9331!2sPizza%20Saucy!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
